@@ -1,0 +1,38 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block content %}
+<div class="">
+    <div class="text-center text-white">
+        <img src="{% static 'core/images/pic2.jpg' %}" class="img-thumbnail mt-3" width="200px" height="100px" alt="Profile Pic">
+        <p><b class="text-info">Sr. Software Engineer (III)</b><br><b class="text-warning">PHP, Laravel, JavaScript, HTML, CSS, Python, Django, Git, Redis, AWS, cPanel</b></p>
+    </div>
+    <div class="text-white mt-3 mx-5 text-justify">
+        <h1 class="font-weight-bold st-font">Hello,</h1>
+        <div class="px-4" style="line-height: 2rem; text-align: justify;">
+            <p style="text-indent: 110px;">
+                I am <b class="text-warning">Vashudev Yadav</b> having 6 years of web devlopment experience globle
+                business, I offer
+                the technical expertise you are seeking for your web devloper position.
+            </p>
+            <p>
+                Since earning my master`s degree in Master of Computer Application <b class="text-warning">(MCA)</b>  
+                from <b class="text-warning">UPRTO University Allahabad</b>, I have serve as a web devloper at <b class="text-warning">ZUXUS Business Solution</b>, 
+                one of biggest premier web devlopment firm. In this company i was working 6 months as an intern, After one year in this position, 
+                I have lead web devlopment projects for clients in diverse industries including technology, devlopment, pharmacutical,
+                hospitality, retail and production continuously 3 years.
+            </p>
+            <p>
+                Since Jan 2022 i am working with <b class="text-warning">Impact Guru Pvt.Ltd</b> as a <b class="text-warning">SDE-III</b> position.
+                In this position, I am leading a 10 members team, And i have learned <b class="text-warning">Python & Django</b> and impliment it in 
+                my current company for API use of web scraping.
+            </p>
+            
+        </div>
+    </div>
+    <div class="text-center">
+        <a href="{% url 'contact' %}" class="btn btn-outline-warning mx-3 mr-5">Hire Me</a>
+        <a href="{% url 'contact' %}" class="btn btn-outline-info my-3">Contact</a>
+    </div>
+</div>
+
+{% endblock content %}
